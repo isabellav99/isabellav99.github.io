@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display&display=swap');
+
+body{
+  background-color:rgba(227,223,226);
+  max-width
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+}
+
+nav {
+  position: absolute;
+  top: 19px;
+  left: 1000px;
+  width: 100%;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  grid-template-areas:
+    "clips    pics"
+    "pics2   graphic";
+}
+
+header{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: rgba(211,175,173)
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 25px;
+  grid-column: 1 / -1;
+}
+
+article{
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  margin-top: 210px;
+  margin-bottom: 500px;
+  grid-column: 1 / -1;
+  border: 2px solid rgba(211,175,173);
+}
+
+p
+ {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  color: rgba(211,175,173)
+}
+
+h4{
+  font-family: 'Playfair Display', serif;
+}
+
+.quote{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  color: rgba(211,175,173)
+}
+
+.navigation{
+  font-family: 'Oswald', sans-serif;
+  color: rgba(211,175,173)
+}
