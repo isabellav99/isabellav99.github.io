@@ -19,6 +19,7 @@ nav ul {
 
 a {
   color: rgba(238,210,204);
+  color: #000;
 }
 
 a:visited{
@@ -45,11 +46,12 @@ header{
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
   color: rgba(143,45,86);
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding-left: 25px;
-  grid-column: 1 / -1;
+  overflow: auto;
+}
+
+nav {
+  float: right;
+  display: inline-block;
 }
 
 article{
